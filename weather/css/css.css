@@ -1,0 +1,26 @@
+body {
+    background-color: #007AC9;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem; !important;
+    height: 100vh;
+    padding: 8px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#weather {
+    background-color: rgba(236, 240, 241, 0.8);
+    padding: 35px 0px;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 1.2rem; !important;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    text-align: center;
+    color: black;
+}
+
