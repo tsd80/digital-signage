@@ -5,7 +5,7 @@
  * Date: 14.03.2019
  * Time: 15:23
  */
-$url = "http://data.fmi.fi/fmi-apikey/53036c5e-e84a-4fae-8c78-a279be5b281e/wfs?request=getFeature&storedquery_id=fmi::forecast::hirlam::surface::point::timevaluepair&parameters=Temperature,Pressure,Humidity,WindDirection,WindSpeedMS,WindGust,DewPoint,TotalCloudCover,WeatherSymbol3,Precipitation1h,PrecipitationAmount&latlon=60.2586351,24.8439799&timezone=Europe/Helsinki";
+$url = "http://data.fmi.fi/fmi-apikey/(put api key here)/wfs?request=getFeature&storedquery_id=fmi::forecast::hirlam::surface::point::timevaluepair&parameters=Temperature,Pressure,Humidity,WindDirection,WindSpeedMS,WindGust,DewPoint,TotalCloudCover,WeatherSymbol3,Precipitation1h,PrecipitationAmount&latlon=(your location here)&timezone=Europe/Helsinki";
 $ch = curl_init();
 $timeout = 5;
 curl_setopt($ch, CURLOPT_URL, $url);
