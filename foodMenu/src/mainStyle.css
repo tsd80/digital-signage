@@ -1,0 +1,112 @@
+html
+{
+    font-size: 1rem;
+}
+
+body
+{
+    /*background: linear-gradient(to right, #ffbac1 0%,#ffbac1 50%,#007ac9 100%,#007ac9 100%);*/
+    background-color: #007ac9;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+main
+{
+    position: absolute;
+    z-index: 99999999;
+    margin: 8px;
+    height: calc(100% - 16px);
+    width: calc(100% - 16px);
+    border-radius: 5px;
+    background-color: rgba(236,240,241,0.8);
+}
+
+.foodBlock
+{
+    display: flex;
+    /*height: 103px;*/
+    width: 100%;
+    font-size: 1.5rem;
+    color: black;
+    /*text-shadow: #2989d8 0 0 30px;*/
+
+}
+
+.foodBlock > h2
+{
+    width: 75%;
+    height: fit-content;
+    padding: 0 0 0 1rem;
+    margin: auto 0;
+    font-weight: bold;
+}
+
+.foodBlock > h3
+{
+    width: 25%;
+    margin: auto 0 auto auto;
+    text-shadow: none;
+    height: fit-content;
+    text-align: center;
+    font-weight: bolder;
+    /*color: yellow;*/
+}
+
+#bg
+{
+    position: absolute;
+    z-index: 1;
+    margin: 8px;
+    height: calc(100% - 16px);
+    width: calc(100% - 16px);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#bg_1
+{
+    position: absolute;
+    z-index: 2;
+    top: -8rem;
+    right: -4rem;
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    background: yellow;
+}
+#bg_2
+{
+    position: absolute;
+    z-index: 3;
+    top: 1rem;
+    right: 8rem;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    background: green;
+}
+#bg_3
+{
+    position: absolute;
+    z-index: 4;
+    top: 8.5rem;
+    right: 2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background: red;
+}
+
+#bg_4
+{
+    position: absolute;
+    z-index: 5;
+    top: 11rem;
+    right: 6.5rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: #fefff9;
+}
