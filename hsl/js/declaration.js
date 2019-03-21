@@ -1,0 +1,11 @@
+let
+    lat,
+    lon,
+    radius,
+    numPerStop,
+    speedWalk,
+    blinkThreshold,
+    reloadTime,
+    platformTxt,
+    limitElement,
+    pathTo;
